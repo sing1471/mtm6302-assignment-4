@@ -66,16 +66,7 @@
   nav ul li a {
     padding : 7px 12px;
   }
-  input[type="text"],input[type="email"],input[type="message"],textarea{
-    margin: 0.5em auto;
-    border: 2px black solid;
-    border-radius: 6px;
-  }
  
-p{
-    width: 50%;
-    margin-bottom: 10px;
-}
   button {
     margin: 0.5em auto;
     padding: 1em;
