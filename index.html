@@ -10,16 +10,49 @@
 </head>
 <body>
     <div class="container">
+        <header>
         <nav class="navbar">
-            <a href="#" class="navbar-brand">Logo</a>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <span class="box">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </span>
+            </label>
+            <label class="logo">
+               Logo
+              </label>
             <ul>
               <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Contact Us</a></li>
-            </ul>
-                <i class="fa fa-bars hamburger"></i>
-            </button>
-          </nav>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>  
+          </nav>    
+        </header>
+          <main>
+              <div id="about">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem magnam nulla totam fugiat illo accusamus doloremque quo libero nam tenetur, quas dolor velit sit aliquam porro illum aliquid quod voluptas?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab aspernatur eligendi id a? Facilis dignissimos, illum ratione accusamus soluta provident ab unde harum, deserunt dolores quisquam fugiat enim? Velit, <quidem class="lo"></quidem></p>
+              </div>
+            <div id="contact">
+            <div>
+                <label for="fullname">Your Name</label>
+                <input type="text" id="fullname" name="yourname" required>
+              </div>
+              <div>
+                <label for="youremail">Your Email</label>
+                <input type="email" id="youremail" name="youremail" required>
+              </div>
+              <div>
+                <label for="message">Your Message</label>
+                <textarea name="message" id="message" required></textarea>
+              </div>
+              <div>
+                  <div>
+                <button type="submit">SEND</button>
+            </div>
+              </div>
+          </main>
     </div>
     <script src='script.js'></script>
 </body>
